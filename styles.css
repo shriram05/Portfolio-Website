@@ -1,0 +1,134 @@
+
+body, h1, h2, p, ul, li, form, input, textarea, button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+header {
+  background-color: #b44747;
+  color: #d2b8b8;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none; 
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+  font-size: 30px;
+}
+
+section {
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 5px;
+  background-image:linear-gradient(rgb(249, 19, 180),rgb(28, 140, 220));
+}
+
+h2 {
+  font-size: 30px;
+  color: #37005c;
+  font-family: 'Rampart One';
+  font-weight:600;
+}
+h3{
+  font-family: 'montserrat';
+}
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000;
+  font-family: 'Alef';
+}
+
+/* Contact Form Styles */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label, input, textarea {
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff4d40;
+}
+
+/* Portfolio Item Styles */
+.portfolio-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-item {
+  width: 40%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f0a2ff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+  background-color: rgb(28, 140, 220);
+  color: rgb(0, 0, 0);
+  
+}
+.portfolio-item .special-class:hover {
+  transform: scale(1.05);
+  background-color: rgb(28, 140, 220);
+  color: rgb(255, 255, 255);
+}
+
+
+/* Success Message Styles */
+.success-message {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+a{
+color: black ;
+font-family: 'Averia Serif Libre';
+text-decoration: none;
+}
+a:hover{
+  color: white;
+}
